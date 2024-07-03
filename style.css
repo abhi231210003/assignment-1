@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   width: 30vw;
+   flex-wrap: wrap;
+   height: 20vh;
+}
+#colorbutton{
+    position: relative;
+    left: 150px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(67, 67, 223);
+    font-weight: bold;
+}
+#colorbutton:hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px aqua;
+}
+#colorcheck{
+    position: relative;
+    left: 160px;
+}
